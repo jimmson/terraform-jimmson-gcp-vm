@@ -16,7 +16,7 @@ variable "zone" {
 }
 
 variable "credentials" {
-  type = any
+  type = string
   description = "Credentials for the project"
 }
 
