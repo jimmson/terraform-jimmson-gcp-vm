@@ -5,12 +5,14 @@ variable "project" {
 
 variable "region" {
   type = string
+  nullable = true
   default = "europe-west1"
   description = "The region to deploy the virtual machine"
 }
 
 variable "zone" {
   type = string
+  nullable = true
   default = "europe-west1-b"
   description = "The zone to deploy the virtual machine"
 }
