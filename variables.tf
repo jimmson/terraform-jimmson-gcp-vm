@@ -26,3 +26,8 @@ variable "name" {
   type = string
   description = "Name of the virtual machine"
 }
+
+variable "sandbox_id" {
+  type = string
+  description = "The unique instruqt sandbox id"
+}

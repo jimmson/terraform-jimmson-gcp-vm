@@ -6,7 +6,7 @@ provider "google" {
 }
 
 resource "google_compute_instance" "vm_instance" {
-  name         = var.name
+  name         = "${var.sandbox_id}-${var.name}"
   machine_type = "e2-micro"
 
   boot_disk {
